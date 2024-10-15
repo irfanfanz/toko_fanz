@@ -26,13 +26,13 @@ class DatabaseSeeder extends Seeder
          ]);
 
         
-        //Admin::create([
-        //    'name' => 'admins',
-        //   'username' => 'Admin',
-        //   'email' => 'Admin@gmail.com',
-        //  'password' => bcrypt('123456789'),
+        Admin::create([
+         'name' => 'admins',
+         'username' => 'Admin',
+         'email' => 'Admin@gmail.com',
+         'password' => bcrypt('123456789'),
         
-        //]);
+        ]);
 
         // Distributor::create([
         //     'nama_distributor' => 'distributors',
